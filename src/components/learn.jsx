@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import {
     Home,
     Users,
@@ -78,16 +78,16 @@ const ChapterSelection = ({ navigate }) => {
 
 export default function LearnPage() {
     const navigate = useNavigate();
+     const location = useLocation();
 
-    // Sidebar navigation items
-    const sidebarItems = [
-        { icon: Home, label: "Learn", path: "/learn" },
-        { icon: Users, label: "Characters", path: "/hiragana" },
-        { icon: PenSquare, label: "Practice board", path: "/whiteboard" },
-        { icon: Video, label: "Videos", path: "/videos" },
-        { icon: MessageSquare, label: "Conversation", path: "/conversation" },
-    ];
-
+     const sidebarItems = [
+           
+           { icon: Home, label: "Learn", path: "/learn" },
+           { icon: Users, label: "Characters", path: "/hiragana" },
+           { icon: PenSquare, label: "Practice board", path: "/whiteboard" },
+           { icon: Video, label: "Videos", path: "/vSideos" },
+           { icon: MessageSquare, label: "Conversation", path: "/conversation" },
+       ];
     // Get current path for active state
     const currentPath = window.location.pathname;
 
@@ -112,7 +112,24 @@ export default function LearnPage() {
             onClick={() => navigate(item.path)}
         />
     ))}
-</aside>
+    </aside>
+
+    {/* Bottom mobile nav */}
+<div className="bottom-nav">
+  {sidebarItems.map((item, index) => (
+    <button
+      key={index}
+      className={`nav-btn ${location.pathname === item.path ? 'active' : ''}`}
+      onClick={() => navigate(item.path)}
+      aria-label={item.label}
+    >
+      <item.icon size={22} />
+      <span>{item.label}</span>
+    </button>
+  ))}
+</div>
+
+
 
             {/* Main Content */}
             <main className="main-content">

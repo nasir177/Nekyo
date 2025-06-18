@@ -6,10 +6,7 @@ import FlipCard from "./FlipCard";
 
 // Kawaii Button
 export const Button = ({ children, className, ...props }) => (
-    <button
-        className={`kawaii-btn ${className || ""}`}
-        {...props}
-    >
+    <button className={`kawaii-btn ${className || ""}`} {...props}>
         {children}
     </button>
 );
@@ -25,17 +22,16 @@ export const Progress = ({ value }) => (
 );
 
 const QuizComponent = ({ chapterId: propChapterId }) => {
-     const params = useParams();
+    const params = useParams();
     const chapterId = propChapterId || params.chapterId;
-    // const { chapterId } = useParams(); // <-- get chapterId from URL
+
     const [quizData, setQuizData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selected, setSelected] = useState(null);
     const [showResult, setShowResult] = useState(false);
-    const [flipped, setFlipped] = useState(false);
+    const [flipped, setFlipped] = useState(true); // ✅ Corrected
     const [paused, setPaused] = useState(false);
 
     useEffect(() => {
@@ -57,7 +53,7 @@ const QuizComponent = ({ chapterId: propChapterId }) => {
     useEffect(() => {
         setSelected(null);
         setShowResult(false);
-        setFlipped(false);
+        setFlipped(true); // ✅ This will now work
     }, [currentIndex]);
 
     if (loading) {
@@ -81,7 +77,6 @@ const QuizComponent = ({ chapterId: propChapterId }) => {
         );
     }
 
-    // Filter questions for the current chapter
     const questions = quizData.filter(q => String(q.chapter) === String(chapterId));
     const currentQuestion = questions[currentIndex];
 
@@ -152,6 +147,7 @@ const QuizComponent = ({ chapterId: propChapterId }) => {
                     <FlipCard
                         front={currentQuestion.front}
                         back={currentQuestion.back}
+                        flipped={flipped} // ✅ Pass it here if FlipCard uses it
                     />
                     <Button
                         className="kawaii-btn-main"

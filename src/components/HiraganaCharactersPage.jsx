@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './HiraganaCharactersPage.css';
 import { Home, Users, PenSquare, Video, MessageSquare } from "lucide-react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const SidebarItem = ({ icon: Icon, label, active, notification, onClick }) => (
     <div
@@ -23,6 +23,17 @@ const SidebarItem = ({ icon: Icon, label, active, notification, onClick }) => (
 const HiraganaCharactersPage = () => {
     const [selectedScript, setSelectedScript] = useState('hiragana');
     const navigate = useNavigate();
+    const location = useLocation();
+
+    
+    const sidebarItems = [
+        
+        { icon: Home, label: "Learn", path: "/learn" },
+        { icon: Users, label: "Characters", path: "/hiragana" },
+        { icon: PenSquare, label: "Practice board", path: "/whiteboard" },
+        { icon: Video, label: "Videos", path: "/vSideos" },
+        { icon: MessageSquare, label: "Conversation", path: "/conversation" },
+    ];
 
     const hiragana = [
         ['あ', 'a'], ['い', 'i'], ['う', 'u'], ['え', 'e'], ['お', 'o'],
@@ -146,19 +157,21 @@ const HiraganaCharactersPage = () => {
         characters = kanji;
     }
 
-   // Sidebar items (matching learn.jsx)
-    const sidebarItems = [
-        { icon: Home, label: "Learn", path: "/learn" },
-        { icon: Users, label: "Characters", path: "/hiragana" },
-        { icon: PenSquare, label: "Practice board", path: "/whiteboard" },
-        { icon: Video, label: "Videos", path: "/videos" },
-        { icon: MessageSquare, label: "Conversation", path: "/conversation" },
-    ];
+   // Sidebar items 
+    
+//    {/* Mobile Bottom Navigation */}
+   
+
+
+
+  
 
     // Get current path for active state
     const currentPath = window.location.pathname;
 
     return (
+
+        
        <div className="learn-layout">
             {/* Sidebar */}
            <aside className="sidebar">
@@ -180,6 +193,22 @@ const HiraganaCharactersPage = () => {
         />
     ))}
 </aside>
+
+{/* Bottom mobile nav */}
+<div className="bottom-nav">
+  {sidebarItems.map((item, index) => (
+    <button
+      key={index}
+      className={`nav-btn ${location.pathname === item.path ? 'active' : ''}`}
+      onClick={() => navigate(item.path)}
+      aria-label={item.label}
+    >
+      <item.icon size={22} />
+      <span>{item.label}</span>
+    </button>
+  ))}
+</div>
+
 
             {/* Main content */}
             <main className="main-content">
