@@ -85,7 +85,7 @@ export default function LearnPage() {
            { icon: Home, label: "Learn", path: "/learn" },
            { icon: Users, label: "Characters", path: "/hiragana" },
            { icon: PenSquare, label: "Practice board", path: "/whiteboard" },
-           { icon: Video, label: "Videos", path: "/vSideos" },
+           { icon: Video, label: "Videos", path: "/videos" },
            { icon: MessageSquare, label: "Conversation", path: "/conversation" },
        ];
     // Get current path for active state
