@@ -1,0 +1,156 @@
+/* Main container for the conversation UI */
+.conversation-cute-container {
+  max-width: 420px;
+  margin: 2rem auto;
+  background: linear-gradient(135deg, #fff6fa 60%, #ffe3ed 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px #ffb7c540;
+  padding: 1.5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Chat window area for displaying messages */
+.conversation-chat-window {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Message bubble styling */
+.conversation-msg {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.1rem;
+  border-radius: 18px;
+  max-width: 80%;
+  word-break: break-word;
+  animation: fadeIn 0.5s;
+}
+
+/* Bot message bubble */
+.conversation-msg.bot {
+  background: #ffe3ed;
+  align-self: flex-start;
+  box-shadow: 0 2px 8px #ffb7c540;
+}
+
+/* User message bubble */
+.conversation-msg.user {
+  background: #ffb7c5;
+  align-self: flex-end;
+  color: #fff;
+  box-shadow: 0 2px 8px #ff6f9140;
+}
+
+/* Icon styling for bot and user */
+.bot-icon, .user-icon {
+  margin-right: 0.7em;
+  font-size: 1.3em;
+}
+
+/* Input row styling */
+.conversation-input-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Text input styling */
+.conversation-input {
+  flex: 1;
+  border: none;
+  border-radius: 1em;
+  padding: 0.7em 1em;
+  font-size: 1.1em;
+  background: #fff;
+  box-shadow: 0 2px 8px #ffb7c540;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.conversation-input:focus {
+  box-shadow: 0 4px 16px #ffb7c580;
+}
+
+/* Button styles */
+.voice-btn, .send-btn, .skip-btn {
+  background: #ff6f91;
+  color: #fff;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1.1em;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #ffb7c540;
+}
+
+.voice-btn:hover, .send-btn:hover, .skip-btn:hover {
+  background: linear-gradient(90deg, #ffb7c5 0%, #e60026 100%);
+  box-shadow: 0 4px 16px #e6002640;
+}
+
+/* Skip button special style */
+.skip-btn {
+  background: #ffe3ed;
+  color: #e60026;
+  font-weight: bold;
+}
+
+.skip-btn:hover {
+  background: #ffb7c5;
+  color: #fff;
+}
+
+/* Pop-in animation for elements */
+@keyframes pop-in {
+  0% { transform: scale(0.7); opacity: 0; }
+  80% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+/* Fade-in animation for messages */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Background for the conversation area */
+.conversation-cute-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #fff6fa 0%, #ffe3ed 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Sakura petal animation */
+.sakura-petal {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  opacity: 0.7;
+  animation: sakura-fall 8s linear infinite;
+}
+
+/* Sakura petals with different positions and delays */
+.sakura-petal:nth-child(1) { left: 10%; animation-delay: 0s; }
+.sakura-petal:nth-child(2) { left: 30%; animation-delay: 2s; }
+.sakura-petal:nth-child(3) { left: 50%; animation-delay: 4s; }
+.sakura-petal:nth-child(4) { left: 70%; animation-delay: 1s; }
+.sakura-petal:nth-child(5) { left: 85%; animation-delay: 3s; }
+
+/* Sakura falling animation */
+@keyframes sakura-fall {
+  0% { top: -40px; transform: rotate(-10deg) scale(1); }
+  70% { transform: rotate(10deg) scale(1.1); }
+  100% { top: 100vh; transform: rotate(30deg) scale(0.9); }
+}

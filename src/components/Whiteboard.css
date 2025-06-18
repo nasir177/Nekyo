@@ -1,0 +1,145 @@
+.whiteboard-container {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Realistic wood texture using gradients and patterns */
+    background-color: #7c5a2a;
+    background-image:
+        repeating-linear-gradient(
+            90deg,
+            rgba(140, 100, 50, 0.18) 0px,
+            rgba(140, 100, 50, 0.18) 8px,
+            transparent 8px,
+            transparent 24px
+        ),
+        repeating-linear-gradient(
+            0deg,
+            rgba(120, 80, 30, 0.12) 0px,
+            rgba(120, 80, 30, 0.12) 2px,
+            transparent 2px,
+            transparent 12px
+        ),
+        linear-gradient(
+            120deg,
+            #8d6b36 0%,
+            #a47c48 40%,
+            #7c5a2a 100%
+        );
+    overflow: auto;
+}
+
+.whiteboard-title {
+    color: #fffbe7;
+    font-family: 'Noto Sans JP', 'Yu Mincho', 'Meiryo', serif;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    text-shadow: 0 2px 8px #1a2a18, 0 1px 0 #fffbe7;
+}
+
+.chalkboard-canvas {
+    border: 12px solid #bfa76f;
+    border-radius: 16px;
+    background: 
+        repeating-linear-gradient(
+            to bottom,
+            #2d4c2a 0px,
+            #2d4c2a 39px,
+            #30512d 40px,
+            #2d4c2a 41px
+        ),
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,0.04) 0%, transparent 80%),
+        radial-gradient(circle at 70% 70%, rgba(255,255,255,0.03) 0%, transparent 80%);
+    box-shadow: 0 8px 32px #1a2a18, 0 1px 0 #bfa76f;
+    cursor: crosshair;
+    margin-bottom: 18px;
+    margin-top: 0;
+    transition: box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+    max-width: 95vw;
+    max-height: 60vh;
+    width: 500px;
+    height: 400px;
+}
+
+.chalkboard-canvas:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: url('https://www.transparenttextures.com/patterns/black-linen.png');
+    opacity: 0.12;
+    z-index: 1;
+}
+
+.chalkboard-canvas:active {
+    box-shadow: 0 4px 16px #1a2a18;
+}
+
+.chalkboard-buttons {
+    margin-top: 16px;
+}
+
+.chalkboard-buttons button {
+    background: #fffbe7;
+    color: #2d4c2a;
+    border: 2px solid #bfa76f;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 8px 18px;
+    margin-right: 12px;
+    box-shadow: 0 2px 6px #1a2a18;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.chalkboard-buttons button:hover {
+    background: #bfa76f;
+    color: #fffbe7;
+}
+
+/* Back button always on top */
+.whiteboard-back-btn {
+    position: absolute !important;
+    top: 16px;
+    right: 16px;
+    z-index: 100;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .whiteboard-title {
+        font-size: 1.2rem;
+        margin-top: 36px;
+    }
+    .chalkboard-canvas {
+        width: 98vw;
+        height: 45vw;
+        min-height: 220px;
+        min-width: 0;
+        max-width: 98vw;
+        max-height: 60vw;
+    }
+    .chalkboard-buttons button {
+        font-size: 0.95rem;
+        padding: 7px 12px;
+        margin-right: 8px;
+    }
+    .whiteboard-back-btn {
+        top: 8px;
+        right: 8px;
+    }
+}

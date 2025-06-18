@@ -1,0 +1,863 @@
+[
+    
+    {
+        "type": "flipcard",
+        "front": "私 (Kanji)",
+        "back": "わたし - I, me",
+        "chapter": 0
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter1/question1.png",
+        "prompt": "I, me",
+        "choices": [
+            { "text": "私", "reading": "わたし", "correct": true },
+            { "text": "何", "reading": "なに", "correct": false }
+        ],
+        "chapter": 0
+    },
+    {
+        "type": "flipcard",
+        "front": "何 (Kanji)",
+        "back": "なに - What",
+        "chapter": 0
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter1/question2.png",
+        "prompt": "What",
+        "choices": [
+            { "text": "何", "reading": "なに", "correct": true },
+            { "text": "私", "reading": "わたし", "correct": false }
+        ],
+        "chapter": 0
+    },
+    {
+        "type": "flipcard",
+        "front": "人 (Kanji)",
+        "back": "ひと - Person",
+        "chapter": 0
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter1/question3.png",
+        "prompt": "Person",
+        "choices": [
+            { "text": "人", "reading": "ひと", "correct": true },
+            { "text": "何", "reading": "なに", "correct": false }
+        ],
+        "chapter": 0
+    },
+    {
+        "type": "flipcard",
+        "front": "学生 (Kanji)",
+        "back": "がくせい - Student",
+        "chapter": 0
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter1/question4.png",
+        "prompt": "Student",
+        "choices": [
+            { "text": "学生", "reading": "がくせい", "correct": true },
+            { "text": "先生", "reading": "せんせい", "correct": false }
+        ],
+        "chapter": 0
+    },
+    {
+        "type": "flipcard",
+        "front": "先生 (Kanji)",
+        "back": "せんせい - Teacher",
+        "chapter": 0
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter1/question5.png",
+        "prompt": "Teacher",
+        "choices": [
+            { "text": "先生", "reading": "せんせい", "correct": true },
+            { "text": "学生", "reading": "がくせい", "correct": false }
+        ],
+        "chapter": 0
+    },
+
+    {
+        "type": "flipcard",
+        "front": "学校 (Kanji)",
+        "back": "がっこう - School",
+        "chapter": 1
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter2/question1.png",
+        "prompt": "School",
+        "choices": [
+            { "text": "学校", "reading": "がっこう", "correct": true },
+            { "text": "大学", "reading": "だいがく", "correct": false }
+        ],
+        "chapter": 1
+    },
+    {
+        "type": "flipcard",
+        "front": "大学 (Kanji)",
+        "back": "だいがく - University",
+        "chapter": 1
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter2/question2.png",
+        "prompt": "University",
+        "choices": [
+            { "text": "大学", "reading": "だいがく", "correct": true },
+            { "text": "学校", "reading": "がっこう", "correct": false }
+        ],
+        "chapter": 1
+    },
+    {
+        "type": "flipcard",
+        "front": "友達 (Kanji)",
+        "back": "ともだち - Friend",
+        "chapter": 1
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter2/question3.png",
+        "prompt": "Friend",
+        "choices": [
+            { "text": "友達", "reading": "ともだち", "correct": true },
+            { "text": "先生", "reading": "せんせい", "correct": false }
+        ],
+        "chapter": 1
+    },
+    {
+        "type": "flipcard",
+        "front": "本 (Kanji)",
+        "back": "ほん - Book",
+        "chapter": 1
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter2/question4.png",
+        "prompt": "Book",
+        "choices": [
+            { "text": "本", "reading": "ほん", "correct": true },
+            { "text": "学生", "reading": "がくせい", "correct": false }
+        ],
+        "chapter": 1
+    },
+    {
+        "type": "flipcard",
+        "front": "机 (Kanji)",
+        "back": "つくえ - Desk",
+        "chapter": 1
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter2/question5.png",
+        "prompt": "Desk",
+        "choices": [
+            { "text": "机", "reading": "つくえ", "correct": true },
+            { "text": "本", "reading": "ほん", "correct": false }
+        ],
+        "chapter": 1
+    },
+
+    {
+        "type": "flipcard",
+        "front": "犬 (Kanji)",
+        "back": "いぬ - Dog",
+        "chapter": 2
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter3/question1.png",
+        "prompt": "Dog",
+        "choices": [
+            { "text": "犬", "reading": "いぬ", "correct": true },
+            { "text": "猫", "reading": "ねこ", "correct": false }
+        ],
+        "chapter": 2
+    },
+    {
+        "type": "flipcard",
+        "front": "猫 (Kanji)",
+        "back": "ねこ - Cat",
+        "chapter": 2
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter3/question2.png",
+        "prompt": "Cat",
+        "choices": [
+            { "text": "猫", "reading": "ねこ", "correct": true },
+            { "text": "犬", "reading": "いぬ", "correct": false }
+        ],
+        "chapter": 2
+    },
+    {
+        "type": "flipcard",
+        "front": "鳥 (Kanji)",
+        "back": "とり - Bird",
+        "chapter": 2
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter3/question3.png",
+        "prompt": "Bird",
+        "choices": [
+            { "text": "鳥", "reading": "とり", "correct": true },
+            { "text": "猫", "reading": "ねこ", "correct": false }
+        ],
+        "chapter": 2
+    },
+    {
+        "type": "flipcard",
+        "front": "魚 (Kanji)",
+        "back": "さかな - Fish",
+        "chapter": 2
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter3/question4.png",
+        "prompt": "Fish",
+        "choices": [
+            { "text": "魚", "reading": "さかな", "correct": true },
+            { "text": "鳥", "reading": "とり", "correct": false }
+        ],
+        "chapter": 2
+    },
+    {
+        "type": "flipcard",
+        "front": "馬 (Kanji)",
+        "back": "うま - Horse",
+        "chapter": 2
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter3/question5.png",
+        "prompt": "Horse",
+        "choices": [
+            { "text": "馬", "reading": "うま", "correct": true },
+            { "text": "魚", "reading": "さかな", "correct": false }
+        ],
+        "chapter": 2
+    },
+
+    {
+        "type": "flipcard",
+        "front": "車 (Kanji)",
+        "back": "くるま - Car",
+        "chapter": 3
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter4/question1.png",
+        "prompt": "Car",
+        "choices": [
+            { "text": "車", "reading": "くるま", "correct": true },
+            { "text": "自転車", "reading": "じてんしゃ", "correct": false }
+        ],
+        "chapter": 3
+    },
+    {
+        "type": "flipcard",
+        "front": "自転車 (Kanji)",
+        "back": "じてんしゃ - Bicycle",
+        "chapter": 3
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter4/question2.png",
+        "prompt": "Bicycle",
+        "choices": [
+            { "text": "自転車", "reading": "じてんしゃ", "correct": true },
+            { "text": "車", "reading": "くるま", "correct": false }
+        ],
+        "chapter": 3
+    },
+    {
+        "type": "flipcard",
+        "front": "電車 (Kanji)",
+        "back": "でんしゃ - Train",
+        "chapter": 3
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter4/question3.png",
+        "prompt": "Train",
+        "choices": [
+            { "text": "電車", "reading": "でんしゃ", "correct": true },
+            { "text": "自転車", "reading": "じてんしゃ", "correct": false }
+        ],
+        "chapter": 3
+    },
+    {
+        "type": "flipcard",
+        "front": "飛行機 (Kanji)",
+        "back": "ひこうき - Airplane",
+        "chapter": 3
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter4/question4.png",
+        "prompt": "Airplane",
+        "choices": [
+            { "text": "飛行機", "reading": "ひこうき", "correct": true },
+            { "text": "電車", "reading": "でんしゃ", "correct": false }
+        ],
+        "chapter": 3
+    },
+    {
+        "type": "flipcard",
+        "front": "船 (Kanji)",
+        "back": "ふね - Ship",
+        "chapter": 3
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter4/question5.png",
+        "prompt": "Ship",
+        "choices": [
+            { "text": "船", "reading": "ふね", "correct": true },
+            { "text": "飛行機", "reading": "ひこうき", "correct": false }
+        ],
+        "chapter": 3
+    },
+
+    
+    {
+        "type": "flipcard",
+        "front": "山 (Kanji)",
+        "back": "やま - Mountain",
+        "chapter": 4
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter5/question1.png",
+        "prompt": "Mountain",
+        "choices": [
+            { "text": "山", "reading": "やま", "correct": true },
+            { "text": "川", "reading": "かわ", "correct": false }
+        ],
+        "chapter": 4
+    },
+    {
+        "type": "flipcard",
+        "front": "川 (Kanji)",
+        "back": "かわ - River",
+        "chapter": 4
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter5/question2.png",
+        "prompt": "River",
+        "choices": [
+            { "text": "川", "reading": "かわ", "correct": true },
+            { "text": "山", "reading": "やま", "correct": false }
+        ],
+        "chapter": 4
+    },
+    {
+        "type": "flipcard",
+        "front": "海 (Kanji)",
+        "back": "うみ - Sea",
+        "chapter": 4
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter5/question3.png",
+        "prompt": "Sea",
+        "choices": [
+            { "text": "海", "reading": "うみ", "correct": true },
+            { "text": "川", "reading": "かわ", "correct": false }
+        ],
+        "chapter": 4
+    },
+    {
+        "type": "flipcard",
+        "front": "森 (Kanji)",
+        "back": "もり - Forest",
+        "chapter": 4
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter5/question4.png",
+        "prompt": "Forest",
+        "choices": [
+            { "text": "森", "reading": "もり", "correct": true },
+            { "text": "海", "reading": "うみ", "correct": false }
+        ],
+        "chapter": 4
+    },
+    {
+        "type": "flipcard",
+        "front": "空 (Kanji)",
+        "back": "そら - Sky",
+        "chapter": 4
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter5/question5.png",
+        "prompt": "Sky",
+        "choices": [
+            { "text": "空", "reading": "そら", "correct": true },
+            { "text": "森", "reading": "もり", "correct": false }
+        ],
+        "chapter": 4
+    },
+
+    {
+        "type": "flipcard",
+        "front": "赤 (Kanji)",
+        "back": "あか - Red",
+        "chapter": 5
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter6/question1.png",
+        "prompt": "Red",
+        "choices": [
+            { "text": "赤", "reading": "あか", "correct": true },
+            { "text": "青", "reading": "あお", "correct": false }
+        ],
+        "chapter": 5
+    },
+    {
+        "type": "flipcard",
+        "front": "青 (Kanji)",
+        "back": "あお - Blue",
+        "chapter": 5
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter6/question2.png",
+        "prompt": "Blue",
+        "choices": [
+            { "text": "青", "reading": "あお", "correct": true },
+            { "text": "赤", "reading": "あか", "correct": false }
+        ],
+        "chapter": 5
+    },
+    {
+        "type": "flipcard",
+        "front": "黄 (Kanji)",
+        "back": "き - Yellow",
+        "chapter": 5
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter6/question3.png",
+        "prompt": "Yellow",
+        "choices": [
+            { "text": "黄", "reading": "き", "correct": true },
+            { "text": "青", "reading": "あお", "correct": false }
+        ],
+        "chapter": 5
+    },
+    {
+        "type": "flipcard",
+        "front": "白 (Kanji)",
+        "back": "しろ - White",
+        "chapter": 5
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter6/question4.png",
+        "prompt": "White",
+        "choices": [
+            { "text": "白", "reading": "しろ", "correct": true },
+            { "text": "黄", "reading": "き", "correct": false }
+        ],
+        "chapter": 5
+    },
+    {
+        "type": "flipcard",
+        "front": "黒 (Kanji)",
+        "back": "くろ - Black",
+        "chapter": 5
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter6/question5.png",
+        "prompt": "Black",
+        "choices": [
+            { "text": "黒", "reading": "くろ", "correct": true },
+            { "text": "白", "reading": "しろ", "correct": false }
+        ],
+        "chapter": 5
+    },
+
+    {
+        "type": "flipcard",
+        "front": "一 (Kanji)",
+        "back": "いち - One",
+        "chapter": 6
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter7/question1.png",
+        "prompt": "One",
+        "choices": [
+            { "text": "一", "reading": "いち", "correct": true },
+            { "text": "二", "reading": "に", "correct": false }
+        ],
+        "chapter": 6
+    },
+    {
+        "type": "flipcard",
+        "front": "二 (Kanji)",
+        "back": "に - Two",
+        "chapter": 6
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter7/question2.png",
+        "prompt": "Two",
+        "choices": [
+            { "text": "二", "reading": "に", "correct": true },
+            { "text": "一", "reading": "いち", "correct": false }
+        ],
+        "chapter": 6
+    },
+    {
+        "type": "flipcard",
+        "front": "三 (Kanji)",
+        "back": "さん - Three",
+        "chapter": 6
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter7/question3.png",
+        "prompt": "Three",
+        "choices": [
+            { "text": "三", "reading": "さん", "correct": true },
+            { "text": "二", "reading": "に", "correct": false }
+        ],
+        "chapter": 6
+    },
+    {
+        "type": "flipcard",
+        "front": "四 (Kanji)",
+        "back": "し/よん - Four",
+        "chapter": 6
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter7/question4.png",
+        "prompt": "Four",
+        "choices": [
+            { "text": "四", "reading": "し/よん", "correct": true },
+            { "text": "三", "reading": "さん", "correct": false }
+        ],
+        "chapter": 6
+    },
+    {
+        "type": "flipcard",
+        "front": "五 (Kanji)",
+        "back": "ご - Five",
+        "chapter": 6
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter7/question5.png",
+        "prompt": "Five",
+        "choices": [
+            { "text": "五", "reading": "ご", "correct": true },
+            { "text": "四", "reading": "し/よん", "correct": false }
+        ],
+        "chapter": 6
+    },
+
+    {
+        "type": "flipcard",
+        "front": "日 (Kanji)",
+        "back": "ひ/にち - Day/Sun",
+        "chapter": 7
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter8/question1.png",
+        "prompt": "Day/Sun",
+        "choices": [
+            { "text": "日", "reading": "ひ/にち", "correct": true },
+            { "text": "月", "reading": "つき/げつ", "correct": false }
+        ],
+        "chapter": 7
+    },
+    {
+        "type": "flipcard",
+        "front": "月 (Kanji)",
+        "back": "つき/げつ - Moon/Month",
+        "chapter": 7
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter8/question2.png",
+        "prompt": "Moon/Month",
+        "choices": [
+            { "text": "月", "reading": "つき/げつ", "correct": true },
+            { "text": "日", "reading": "ひ/にち", "correct": false }
+        ],
+        "chapter": 7
+    },
+    {
+        "type": "flipcard",
+        "front": "火 (Kanji)",
+        "back": "ひ/か - Fire",
+        "chapter": 7
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter8/question3.png",
+        "prompt": "Fire",
+        "choices": [
+            { "text": "火", "reading": "ひ/か", "correct": true },
+            { "text": "水", "reading": "みず/すい", "correct": false }
+        ],
+        "chapter": 7
+    },
+    {
+        "type": "flipcard",
+        "front": "水 (Kanji)",
+        "back": "みず/すい - Water",
+        "chapter": 7
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter8/question4.png",
+        "prompt": "Water",
+        "choices": [
+            { "text": "水", "reading": "みず/すい", "correct": true },
+            { "text": "火", "reading": "ひ/か", "correct": false }
+        ],
+        "chapter": 7
+    },
+    {
+        "type": "flipcard",
+        "front": "木 (Kanji)",
+        "back": "き/もく - Tree/Wood",
+        "chapter": 7
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter8/question5.png",
+        "prompt": "Tree/Wood",
+        "choices": [
+            { "text": "木", "reading": "き/もく", "correct": true },
+            { "text": "水", "reading": "みず/すい", "correct": false }
+        ],
+        "chapter": 7
+    },
+
+    {
+        "type": "flipcard",
+        "front": "上 (Kanji)",
+        "back": "うえ - Up/Above",
+        "chapter": 8
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter9/question1.png",
+        "prompt": "Up/Above",
+        "choices": [
+            { "text": "上", "reading": "うえ", "correct": true },
+            { "text": "下", "reading": "した", "correct": false }
+        ],
+        "chapter": 8
+    },
+    {
+        "type": "flipcard",
+        "front": "下 (Kanji)",
+        "back": "した - Down/Below",
+        "chapter": 8
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter9/question2.png",
+        "prompt": "Down/Below",
+        "choices": [
+            { "text": "下", "reading": "した", "correct": true },
+            { "text": "上", "reading": "うえ", "correct": false }
+        ],
+        "chapter": 8
+    },
+    {
+        "type": "flipcard",
+        "front": "中 (Kanji)",
+        "back": "なか - Inside/Middle",
+        "chapter": 8
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter9/question3.png",
+        "prompt": "Inside/Middle",
+        "choices": [
+            { "text": "中", "reading": "なか", "correct": true },
+            { "text": "外", "reading": "そと", "correct": false }
+        ],
+        "chapter": 8
+    },
+    {
+        "type": "flipcard",
+        "front": "外 (Kanji)",
+        "back": "そと - Outside",
+        "chapter": 8
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter9/question4.png",
+        "prompt": "Outside",
+        "choices": [
+            { "text": "外", "reading": "そと", "correct": true },
+            { "text": "中", "reading": "なか", "correct": false }
+        ],
+        "chapter": 8
+    },
+    {
+        "type": "flipcard",
+        "front": "前 (Kanji)",
+        "back": "まえ - Front/Before",
+        "chapter": 8
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter9/question5.png",
+        "prompt": "Front/Before",
+        "choices": [
+            { "text": "前", "reading": "まえ", "correct": true },
+            { "text": "後", "reading": "うしろ", "correct": false }
+        ],
+        "chapter": 8
+    },
+
+    {
+        "type": "flipcard",
+        "front": "大 (Kanji)",
+        "back": "おおきい - Big",
+        "chapter": 9
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter10/question1.png",
+        "prompt": "Big",
+        "choices": [
+            { "text": "大", "reading": "おおきい", "correct": true },
+            { "text": "小", "reading": "ちいさい", "correct": false }
+        ],
+        "chapter": 9
+    },
+    {
+        "type": "flipcard",
+        "front": "小 (Kanji)",
+        "back": "ちいさい - Small",
+        "chapter": 9
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter10/question2.png",
+        "prompt": "Small",
+        "choices": [
+            { "text": "小", "reading": "ちいさい", "correct": true },
+            { "text": "大", "reading": "おおきい", "correct": false }
+        ],
+        "chapter": 9
+    },
+    {
+        "type": "flipcard",
+        "front": "長 (Kanji)",
+        "back": "ながい - Long",
+        "chapter": 9
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter10/question3.png",
+        "prompt": "Long",
+        "choices": [
+            { "text": "長", "reading": "ながい", "correct": true },
+            { "text": "短", "reading": "みじかい", "correct": false }
+        ],
+        "chapter": 9
+    },
+    {
+        "type": "flipcard",
+        "front": "短 (Kanji)",
+        "back": "みじかい - Short",
+        "chapter": 9
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter10/question4.png",
+        "prompt": "Short",
+        "choices": [
+            { "text": "短", "reading": "みじかい", "correct": true },
+            { "text": "長", "reading": "ながい", "correct": false }
+        ],
+        "chapter": 9
+    },
+    {
+        "type": "flipcard",
+        "front": "新 (Kanji)",
+        "back": "あたらしい - New",
+        "chapter": 9
+    },
+    {
+        "type": "mcq",
+        "question": "Choose the correct answer",
+        "image": "/chapter10/question5.png",
+        "prompt": "New",
+        "choices": [
+            { "text": "新", "reading": "あたらしい", "correct": true },
+            { "text": "古", "reading": "ふるい", "correct": false }
+        ],
+        "chapter": 9
+    }
+]

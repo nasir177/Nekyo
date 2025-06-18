@@ -1,0 +1,202 @@
+.hero-container {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #4a3200;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2vw;
+  box-sizing: border-box;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #b6ffb3;
+  margin-bottom: 20px;
+  text-shadow:
+    0 0 8px #39ff14,
+    0 0 24px #39ff14aa,
+    2px 2px 4px #181818;
+  letter-spacing: 0.04em;
+  transition: text-shadow 0.2s, color 0.2s;
+  word-break: break-word;
+}
+
+.hero-title:hover {
+  color: #39ff14;
+  text-shadow:
+    0 0 16px #39ff14,
+    0 0 32px #39ff14cc,
+    2px 2px 8px #181818;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #d0ffd0;
+  text-shadow:
+    0 0 6px #39ff14,
+    1px 1px 2px #181818;
+  transition: text-shadow 0.2s, color 0.2s;
+  word-break: break-word;
+}
+
+.hero-subtitle:hover {
+  color: #39ff14;
+  text-shadow:
+    0 0 12px #39ff14,
+    1px 1px 4px #181818;
+}
+
+.buttons {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  z-index: 3;
+  width: 90vw;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 10px 20px;
+  font-size: 0.98rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 140px;
+  box-sizing: border-box;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, border 0.2s;
+}
+
+.primary-btn {
+  background-color: #39ff14;
+  color: #181818;
+  font-weight: bold;
+  box-shadow: 0 0 24px #39ff14, 0 4px 16px #39ff1433;
+}
+.primary-btn:hover {
+  background-color: #2fdc0a;
+  color: #fff;
+  box-shadow: 0 0 32px #39ff14, 0 8px 24px #39ff1444;
+}
+
+.secondary-btn {
+  background-color: rgba(20,30,20,0.85);
+  color: #39ff14;
+  border: 2px solid #39ff14;
+  font-weight: bold;
+}
+.secondary-btn:hover {
+  background-color: #181818;
+  color: #fff;
+  border-color: #39ff14;
+  box-shadow: 0 0 16px #39ff14;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  .buttons {
+    top: 60%;
+    gap: 12px;
+    width: 80vw;
+    max-width: 90vw;
+  }
+  .primary-btn, .secondary-btn {
+    font-size: 0.95rem;
+    min-width: 120px;
+    padding: 10px 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .bg-image {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    background: #000; /* fallback background */
+    z-index: -1;
+  }
+  .hero-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 18px;
+  }
+  .hero-content {
+    padding: 0 4vw;
+  }
+  .buttons {
+    top: 20%;
+    flex-direction: column;
+    gap: 10px;
+    width: 96vw;
+    max-width: 60vw;
+    padding: 0 2vw;
+  }
+  .primary-btn, .secondary-btn {
+    font-size: 0.92rem;
+    min-width: 100px;
+    padding: 9px 10px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.1rem;
+  }
+  .hero-subtitle {
+    font-size: 0.85rem;
+  }
+  .buttons {
+    top: 75%;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0 1vw;
+  }
+  .primary-btn, .secondary-btn {
+    font-size: 0.85rem;
+    min-width: 80px;
+    padding: 8px 6px;
+  }
+}

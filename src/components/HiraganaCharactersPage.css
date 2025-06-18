@@ -1,0 +1,269 @@
+.container {
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.characters-layout {
+    display: flex;
+    min-height: 100vh;
+    background: #ffffff;
+    color: #000000;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ec4b6;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.nav .nav-item {
+    display: block;
+    margin: 12px 0;
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-item.selected {
+    background-color: #e0e0e0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px 32px 32px 32px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+.tabs {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    font-weight: bold;
+    color: #878a8d;
+    cursor: pointer;
+}
+
+.tab.selected {
+    color: #000000;
+    border-bottom: 2px solid #2ec4b6;
+}
+
+.intro h1 {
+    font-size: 32px;
+}
+
+.intro p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.tips-btn, .learn-btn {
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tips-btn {
+    background-color: #ffffff;
+    color: #2ec4b6;
+    border: 1px solid #2ec4b6;
+}
+
+.learn-btn {
+    background-color: #2ec4b6;
+    color: #ffffff;
+}
+
+.characters-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.char-box {
+    background-color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px #e0e0e0;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.char-box:hover {
+    transform: scale(1.05);
+}
+.char-box:active {
+    box-shadow: 0 2px 8px rgba(46, 196, 182, 0.15);
+}
+
+.char {
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: #000000;
+}
+
+.romaji {
+    font-size: 14px;
+    color: #000000;
+}
+
+.progress-bar {
+    height: 4px;
+    background-color: #e0e0e0;
+    margin-top: 6px;
+    border-radius: 2px;
+}
+
+.right-panel {
+    width: 320px;
+    padding: 32px 20px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 2px #e0e0e0;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.quest-progress {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bar {
+    flex: 1;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    position: relative;
+}
+
+.bar span {
+    width: 0%;
+    height: 100%;
+    background-color: #2ec4b6;
+    display: block;
+    border-radius: 4px;
+}
+
+.xp {
+    font-size: 12px;
+    color: #000000;
+}
+
+.profile-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile-btn.green {
+    background-color: rgb(121, 185, 51 );
+    color: #000000;
+}
+
+.profile-btn.blue {
+    background-color: rgb(24, 153, 214);
+    color: #000000;
+}
+
+.top-stats {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.sidebar {
+    position: relative;
+    z-index: 2;
+    width: 260px;
+    background: #fff;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+  
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar-header {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.sidebar-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    z-index: 2;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
