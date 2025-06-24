@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="hero-container">
       <video
         className="bg-image"
-        src="/large.mp4"
+        src="/welcome.mp4"
         autoPlay
         loop
         muted
