@@ -35,10 +35,7 @@
 
 > Include the following:
 >
-> * Home/Hero section / ホーム・ヒーロー画面![image](https://github.com/user-attachments/assets/7fe24e48-5a17-4583-ae2a-408a65a69e2b)
-> * Character practice UI / 文字練習画面![image](https://github.com/user-attachments/assets/237c8446-2a87-4ce9-9094-2c827f4a8272)
-> * Practice board / 書き取り練習![image](https://github.com/user-attachments/assets/e997184f-08ca-4875-8302-8e2735809d35)
-> * Conversation quiz UI / 会話練習画面![image](https://github.com/user-attachments/assets/0375cfc8-d780-411c-908b-ca8c7654fc2d)
+> * Home/Hero section / ホーム・ヒーロー画面![image](https://github.com/user-attachments/assets/7fe24e48-5a17-4583-ae2a-408a65a69e2b) * Character practice UI / 文字練習画面![image](https://github.com/user-attachments/assets/237c8446-2a87-4ce9-9094-2c827f4a8272) * Practice board / 書き取り練習![image](https://github.com/user-attachments/assets/e997184f-08ca-4875-8302-8e2735809d35) Conversation quiz UI / 会話練習画面![image](https://github.com/user-attachments/assets/0375cfc8-d780-411c-908b-ca8c7654fc2d)
 
 
 ---
