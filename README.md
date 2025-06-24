@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Nekyo (ねきょう) – Learn Japanese with Us 🇯🇵
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Nekyo** is a beautifully designed and beginner-friendly Japanese learning web application built with React.js. It is intended for anime enthusiasts, students, and self-learners who want to master Hiragana, Katakana, Kanji, and essential Japanese conversations. All educational content is delivered via local JSON files — no backend setup required.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features / 特徴
 
-### `npm start`
+* 🎴 Learn Hiragana, Katakana, and Kanji / ひらがな、カタカナ、漢字の学習
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* 🎨 Beautiful full-screen video hero section / フルスクリーン動画背景
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 🧠 Quiz-style conversation practice / 会話形式のクイズ練習
 
-### `npm test`
+* 📝 Vocabulary quiz in Learn section to test your knowledge of characters and words / 学んだ語彙と文字を確認するための「学習」セクションのクイズ機能
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 🐱 Japanese-inspired UI with mascot / 日本風デザインとマスコット
 
-### `npm run build`
+* 📱 Fully responsive across all devices / モバイルにも完全対応
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* 🗂️ Content powered by local JSON files / すべてローカルJSONデータで構成
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack / 使用技術
 
-### `npm run eject`
+* Frontend: **React.js**
+* Styling: **CSS Modules**
+* Hosting: **Vercel**
+* Assets: **MP4 video background, SVGs, JSON files**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📷 Screenshots / スクリーンショット
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Include the following:
+>
+> * Home/Hero section / ホーム・ヒーロー画面![image](https://github.com/user-attachments/assets/7fe24e48-5a17-4583-ae2a-408a65a69e2b)
+> * Character practice UI / 文字練習画面![image](https://github.com/user-attachments/assets/237c8446-2a87-4ce9-9094-2c827f4a8272)
+> * Practice board / 書き取り練習![image](https://github.com/user-attachments/assets/e997184f-08ca-4875-8302-8e2735809d35)
+> * Conversation quiz UI / 会話練習画面![image](https://github.com/user-attachments/assets/0375cfc8-d780-411c-908b-ca8c7654fc2d)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started / はじめに
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/nasir177/nekyo.git
+cd nekyo
+npm install
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🗾 About Nekyo / ねきょうについて
 
-### Analyzing the Bundle Size
+"Nekyo" is a combination of "neko (猫)" and "kyou (教)" — inspired by Japanese culture and designed to help you learn in a friendly and familiar way. This app does not require any server or database. It is lightweight, fast, and ideal for frontend portfolios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+「ねきょう」は、「ねこ（猫）」と「きょう（教）」を組み合わせた造語です。日本文化を感じさせる可愛らしいUIで、楽しく日本語を学べることを目指しています。サーバーやデータベースを必要とせず、軽量かつ高速に動作するため、ポートフォリオ用途にも最適です。
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
